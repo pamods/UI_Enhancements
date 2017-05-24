@@ -1,0 +1,44 @@
+{
+    "author": "DeathByDenim",
+    "build": "94684",
+    "category": [
+        "ui"
+    ],
+    "context": "client",
+    "date": "2017/05/24",
+    "description": "Enhances the user interface with little tweaks.",
+    "description_nl": "Verbetert de UI met kleine aanpassingen.",
+    "description_de": "Verbessert kleine Sachen in der UI.",
+    "description_fr": "Petites améliorations pour l'interface utilisateur",
+    "display_name": "UI Enhancements",
+    "display_name_de": "UI Verbesserungen",
+    "display_name_nl": "UI verbeteringen",
+    "display_name_fr": "Améliorations pour l'IU",
+    "enabled": true,
+    "forum": "https://forums.uberent.com/threads/rel-ui-enhancements-76766.67546/",
+    "icon": "https://raw.githubusercontent.com/DeathByDenim/uienhancements/master/ui_enhancements.png",
+    "id": "com.pa.DeathByDenim.ui_enhancements",
+    "identifier": "com.pa.DeathByDenim.ui_enhancements",
+    "priority": 100,
+    "scenes": {
+        "start": [
+            "coui://ui/mods/com.pa.DeathByDenim.ui_enhancements/start.js"
+        ],
+        "replay_browser": [
+            "coui://ui/mods/com.pa.DeathByDenim.ui_enhancements/replay_browser.js"
+        ],
+        "server_browser": [
+            "coui://ui/mods/com.pa.DeathByDenim.ui_enhancements/server_browser.js"
+        ],
+        "game_over": [
+            "coui://ui/mods/com.pa.DeathByDenim.ui_enhancements/game_over.js"
+        ],
+        "replay_loading": [
+            "coui://ui/mods/com.pa.DeathByDenim.ui_enhancements/replay_loading.js"
+        ]
+    },
+    "signature": "not yet implemented",
+    "version": "1.2",
+    "content_id": "com.pa.DeathByDenim.ui_enhancements",
+    "store_id": "com.pahub.content.plugin.store.mod.client"
+}
